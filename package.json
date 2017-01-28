@@ -1,0 +1,30 @@
+{
+  "name": "owners-file",
+  "version": "1.0.0",
+  "description": "specify who is responsible for maintaining a project or specific files in a project",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha && xo"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "minimatch": "^3.0.3"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.2.0",
+    "xo": "^0.17.1"
+  },
+  "xo": {
+    "esnext": true,
+    "space": true,
+    "rules": {
+      "no-useless-escape": 0
+    },
+    "envs": [
+      "node",
+      "mocha"
+    ]
+  }
+}
