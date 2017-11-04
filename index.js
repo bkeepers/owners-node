@@ -1,6 +1,6 @@
 const minimatch = require('minimatch');
 
-const FORMAT = /^\s*(@?[\w@\.\/-]+)\s*([\w\*\?\.\s-]+)*$/;
+const FORMAT = /^\s*(@?[\w@\.\/-]+)\s*([\w\*\?\.\s\/-]+)*$/;
 
 module.exports = function (contents) {
   const owners = [];
